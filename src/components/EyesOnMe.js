@@ -1,7 +1,7 @@
 // Code EyesOnMe Component Here
-import React from 'react';
+import React, {Component} from 'react';
 
-export default class EyesOnMe extends React.Component {
+export default class EyesOnMe extends Component {
   focus = () => {
     console.log("Good!")
   }
